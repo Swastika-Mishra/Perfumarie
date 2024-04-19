@@ -1,0 +1,12 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #ece2e4;
+}
+.site-title{
+  font-size: 2rem;
+  font-weight: 600;
+}

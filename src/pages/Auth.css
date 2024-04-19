@@ -1,0 +1,47 @@
+
+::-webkit-scrollbar {
+  display: none;
+}
+.heading{
+  margin-bottom: 10px;
+  color: maroon;
+  text-shadow: 2px 2px black;
+  font-size: 3rem;
+}
+.main{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.login-signup {
+  margin-top: 100px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid white;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 470px;
+}
+.fields{
+  width: 300px;
+  margin-top: 15px;
+  padding: 5px;
+  height: 40px;
+}
+.submit{
+  width: 100px;
+  margin-top: 30px;
+  padding: 5px;
+}
+.alt{
+  margin-top: 30px;
+  display: flex;
+}
+.alt-btn{
+  background: transparent;
+  border: none;
+  text-decoration: none;
+  margin-left: 5px;
+}

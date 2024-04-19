@@ -1,0 +1,7 @@
+.categoral-item{
+    display: flex;
+    flex-wrap: wrap;
+    z-index: -2;
+    margin: 2.5rem;
+    margin-top: 0px;
+}

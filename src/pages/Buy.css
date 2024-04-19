@@ -1,0 +1,10 @@
+.background{
+    z-index: -99;
+    height: 100%;
+    width: 100%;
+}
+.product{
+    z-index: 100;
+    top: 70px;
+    position: fixed;
+}

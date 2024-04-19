@@ -1,0 +1,97 @@
+.nav {
+    width: 100%;
+    background-color: transparent;
+    color: beige;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 1rem;
+    z-index: 1000;
+    position: fixed;
+}
+
+.nav-bg {
+    color: black;
+    background-color: #ddbfb7;
+    box-shadow: 0 1px 3px -2px black;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav a {
+    color: inherit;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: .25rem;
+    height: 100%;
+}
+.nav li{
+    cursor: pointer;
+}
+/* .nav hr{
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background-color: blue;
+} */
+
+/* .nav li:active {
+    background-color: beige;
+    color: maroon;
+}
+
+.nav li:hover {
+    background-color: beige;
+    color: maroon;
+} */
+
+.nav-btn{
+    width: 70px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 75px;
+    color: beige;
+    font-size: 15px;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+}
+.nav-bg button{
+    color: black;
+}
+.cart-count{
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -15px;
+    margin-left: 4px;
+    border-radius: 11px;
+    font-size: 10px;
+    color: #f3f3f3;
+}
+.card-count-new{
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -15px;
+    margin-left: 4px;
+    border-radius: 11px;
+    font-size: 10px;
+    background-color: beige;
+    color: black;
+}
+.nav-btn:active{
+    background: #f3f3f3;
+}

@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.tag{
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.videoTag{
+    height: 80%;
+    width: 100%;
+    z-index: -10;
+}
+.main-image{
+    height: 100px;
+    width: 100px;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+.row{
+    margin: auto;
+    padding: 15px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.column{
+    width: 20%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.column :hover{
+    transform: translate(5px,5px);
+    box-shadow:  0 1px 4px rgba(0, 0, 0, 0.24),0 1px 6px rgba(0, 0, 0, 0.12);
+}
+.add_services{
+    display: flex;
+    gap: 20px;
+}
+.services{
+    border: 1px solid grey;
+    border-radius: 11px;
+    margin: 20px;
+    padding: 20px;
+    align-items: center;
+    width: 30%;
+}
+.overlay{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+}
+.typed-out{
+    color: beige;
+    overflow: hidden;
+    border-right: .15em;
+    white-space: nowrap;
+    animation: 
+      typing 10s forwards;
+    font-size: 4rem;
+    width: 0;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    /* font-family: ; */
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }

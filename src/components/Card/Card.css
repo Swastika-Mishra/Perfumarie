@@ -1,0 +1,27 @@
+.category-buttons{
+    width: 150px;
+    height: 200px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+.card img{
+    transform: scale(0.8);
+}
+.card{
+    width: 100px;
+    height: 150px;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.card:hover{
+    transform: translate(5px,5px);
+    transition: 0.6s;
+    box-shadow:  0 1px 4px rgba(0, 0, 0, 0.24),0 1px 6px rgba(0, 0, 0, 0.12);
+}

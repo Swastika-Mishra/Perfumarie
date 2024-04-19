@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+Carousel{
+    margin: 0;
+    padding: 0;
+    gap: 0;
+}
+.new_products_one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #c4b6b8;
+    padding: 30px;
+    position: relative;
+    animation: mymove_top 3s;
+    height: 400px;
+}
+.new_products_one img{
+    border-radius: 10px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.new_products_two img{
+    border-radius: 10px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+@keyframes mymove_top{
+    from {top: -100px;}
+    to {top: 0px;}
+}
+.new_products_two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: olivedrab;
+    padding: 30px;
+    position: relative;
+    animation: mymove_down 3s;
+    height: 400px;
+}
+@keyframes mymove_down{
+    from {bottom: -100px;}
+    to {bottom: 0px;}
+}
